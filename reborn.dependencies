@@ -9,5 +9,11 @@
     "repository": "proprietary_vendor_asus",
     "target_path": "vendor/asus",
     "revision": "cm-12.1"
+  },
+    
+  {
+    "repository": "android_kernel_asus_moorefield",
+    "target_path": "kernel/asus/moorefield",
+    "revision": "cm-12.1"
   }
 ]
