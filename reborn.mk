@@ -7,6 +7,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, vendor/reborn/config/common_full_phone.mk)
 
+$(call inherit-product, vendor/reborn/config/reborn.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/asus/Z00A/device.mk)
 
