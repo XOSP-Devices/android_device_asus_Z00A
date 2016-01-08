@@ -48,7 +48,13 @@ PRODUCT_PACKAGES += \
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.sys.perf.device.powersave=1500000 \
     ro.sys.perf.device.full=2333000 \
-    ro.sys.perf.device.touchboost=1833000
+    ro.sys.perf.device.touchboost=1833000 \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    ro.debuggable=1 \
+    service.adb.root=1 \
+    persist.service.adb.enable=1 \
+    persist.service.debuggable=1
 
 $(call inherit-product-if-exists, vendor/asus/Z00A/Z00A-vendor.mk)
 
