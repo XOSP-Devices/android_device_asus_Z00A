@@ -12,9 +12,6 @@ $(call inherit-product, vendor/xosp/config/xosp.mk)
 # Inherit device configuration
 $(call inherit-product, device/asus/Z00A/device.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/xosp/config/nfc_enhanced.mk)
-
 DEVICE_PACKAGE_OVERLAYS += device/asus/Z00A/overlay
 
 PRODUCT_RUNTIMES := runtime_libart_default
